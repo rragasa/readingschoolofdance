@@ -1,0 +1,34 @@
+{
+  "name": "readingschoolofdance",
+  "version": "1.0.0",
+  "description": "A custom wordpress theme for Reading School of Dance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rragasa/readingschoolofdance.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "author": "Rachelle Ragasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rragasa/readingschoolofdance/issues"
+  },
+  "homepage": "https://github.com/rragasa/readingschoolofdance#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "cssnano": "^4.1.4",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

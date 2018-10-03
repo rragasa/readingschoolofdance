@@ -9,4 +9,6 @@
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  */
-get_header(); ?>
+get_header();?>
+
+<?php get_footer();?>

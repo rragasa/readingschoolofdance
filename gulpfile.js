@@ -24,6 +24,7 @@ const style = () => {
       autoprefixer(),
       cssnano()
     ]))
+
     .pipe(sourcemaps.write())
     .pipe(concat('style.css'))
     .pipe(gulp.dest(paths.style.dest))

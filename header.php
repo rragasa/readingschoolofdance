@@ -20,16 +20,7 @@
 
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                       Menu
-                    </a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-                </li>
-            </ul>
+        <?php wp_nav_menu( array('menu' => 'primary','container'=> '','items_wrap'=>'<ul class="nav sidebar-nav"><li class="sidebar-brand"><a href="#">Menu</a></li>%3$s</ul>')); ?>
         </nav>
         <!-- /#sidebar-wrapper -->
 

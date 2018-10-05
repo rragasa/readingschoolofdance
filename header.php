@@ -15,28 +15,6 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <!-- <nav class="navbar navbar-blue navbar-offcanvas">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Brand</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-
     <div id="wrapper">
         <div class="overlay"></div>
 
@@ -45,7 +23,7 @@
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                       Bootstrap 3
+                       Menu
                     </a>
                 </li>
                 <li>

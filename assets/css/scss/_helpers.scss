@@ -1,14 +1,18 @@
-/*
-* === BACKGROUND COLOURS ===
-*/
+/*-------------------------------*/
+/*     BACKGROUND COLOURS        */
+/*-------------------------------*/
 
 .bg-black {
     background: $rsd-black;
 }
 
-/*
-* === FONT-COLOURS ===
-*/
+.bg-light-black {
+    background: $rsd-light-black;
+}
+
+/*-------------------------------*/
+/*     FONT COLOURS              */
+/*-------------------------------*/
 
 .text-light-grey {
     color: $rsd-light-grey;

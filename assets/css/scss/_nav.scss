@@ -27,6 +27,7 @@
     -webkit-transition: all 0.5s ease;
     padding-left: 0;
     transition: all 0.5s ease;
+    height: 100%;
 }
 
 #wrapper.toggled {
@@ -39,7 +40,6 @@
 
 #wrapper.toggled #page-content-wrapper {
     margin-right: -220px;
-    position: absolute;
 }
 
 #sidebar-wrapper {
@@ -63,7 +63,8 @@
 
 #page-content-wrapper {
     padding-top: 70px;
-    width: 100%;
+    min-height: 100%;
+    margin-bottom: 250px;
 }
 
 /*-------------------------------*/

@@ -1,5 +1,34 @@
+.contactus {
+    padding: 5rem;
+
+    &-item {
+        padding-bottom: 5rem;
+
+        i {
+            font-size: 4rem;
+            color: $rsd-light-grey;
+            vertical-align: top;
+            margin-top: 1rem;
+        }
+
+        h6,
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+            letter-spacing: 1.2px;
+        }
+    }
+
+    &-info {
+        color: $rsd-light-grey;
+        display: inline-block;
+        margin-left: 1.5rem;
+    }
+}
+
 .rsd {
     &-footer {
+        border-top: 1px solid $rsd-dark-grey;
         padding: 1rem 0;
         font-size: .5em;
         height: 100px;

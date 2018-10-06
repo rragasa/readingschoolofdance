@@ -8,15 +8,16 @@
                                 <i class="fas fa-mobile-alt"></i>
                                 <div class="contactinfo-info">
                                     <h6>PHONE</h6>
-                                    <p>+44 07856870559</p>
+                                    <p><a href="tel:+44 07856870559">+44 07856870559</a></p>
                                 </div>
                             </div>
                             <div class="contactinfo-item">
                                 <i class="fas fa-envelope"></i>
                                 <div class="contactinfo-info">
                                     <h6>EMAIL</h6>
-                                    <p>Josie.norman@
-                                        <br>readingschoolofdance.com</p>
+                                    <p><a href="mailto:Josie.norman@
+                                        <br>readingschoolofdance.com">Josie.norman@
+                                        <br>readingschoolofdance.com</a></p>
                                 </div>
                             </div>
                         </div>

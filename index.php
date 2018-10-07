@@ -10,5 +10,11 @@
  *
  */
 get_header();?>
+        <div class="container">
+
+        </div>
+
+    </div>
+    <!-- /#page-content-wrapper -->
 
 <?php get_footer();?>

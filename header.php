@@ -32,19 +32,30 @@
             <span class="hamb-bottom"></span>
           </button>
           <!-- Header -->
-        <header id="home">
-            <div class="header-img">
-                <img src="<?php header_image();?>" alt="" />
-            </div>
-        </header>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h1 class="page-header">Reading School of Dance</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <?php if (is_page(home)) { ?>
+            <header id="home">
+                <div class="header-img">
+                    <img src="<?php header_image();?>" alt="" />
                 </div>
-            </div>
-        </div>
-        </div>
-        <!-- /#page-content-wrapper -->
+                <div class="header-text">
+                        <div class="container">
+                            <h1><?php the_field('header_title');?></h1>
+                            <div class="header__divider"></div>
+                            <p><?php the_field('header_description');?></p>
+                        </div>
+                    </div>
+            </header>
+        <?php } else { ?>
+                <header>
+                <div class="header-img">
+                    <img src="<?php header_image();?>" alt="" />
+                </div>
+                <div class="header-text">
+                    <div class="container">
+                        <h1><?php the_field('header_title');?></h1>
+                        <div class="header__divider"></div>
+                        <p><?php the_field('header_description');?></p>
+                    </div>
+                </div>
+            </header>
+        <?php }?>

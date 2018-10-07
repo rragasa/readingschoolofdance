@@ -23,11 +23,9 @@ $defaults = array(
 );
 add_theme_support( 'custom-header' );
 
-// function my_theme_setup() {
-//     add_theme_support( 'custom-header', array(
-//         'width'  => 2000,
-//         'height' => 500,
-//     ) );
-// }
-// add_action( 'after_theme_setup', 'my_theme_setup' );
+// Hide Content Editor
+function remove_textarea() {
+    remove_post_type_support( 'page', 'editor' );
+}
+add_action('admin_init', 'remove_textarea');
 ?>

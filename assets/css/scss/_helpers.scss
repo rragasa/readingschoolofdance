@@ -58,12 +58,21 @@
 
 .section-left,
 .section-right {
-    padding: 3rem;
     height: 18rem;
 }
 
 .section-text {
     text-decoration: none;
+
+    a {
+        border-bottom: 2px solid $rsd-white;
+        padding-bottom: 1rem;
+    }
+}
+
+.section-description {
+    margin-top: 4.2rem;
+    text-align: center;
 }
 
 /*-------------------------------*/
@@ -75,5 +84,9 @@
     .section-right {
         padding: 3rem;
         height: 30rem;
+    }
+
+    .section-description {
+        margin-top: 10rem;
     }
 }

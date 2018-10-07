@@ -11,35 +11,35 @@
  */
 get_header();?>
         <section class="aboutus-section">
-            <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-blue">
-                <div class="section-left">
-                    <h3 class="section-text"><a href="#">About Us</a></h3>
-                </div>
+            <div class="section-left col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-blue">
+                <img src="<?php the_field('aboutus-image');?>">
             </div>
             <div class="section-right container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-black">
-                <h3 class="section-text"><a href="#">About Us</a></h3>
+                <div class="section-description">
+                    <h3 class="section-text"><a href="/about-us">About Us</a></h3>
+                </div>
             </div>
         </section>
 
-        <section class="classes-section">
-            <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-black">
-                <div class="section-left">
-                    <h3 class="section-text"><a href="#">Classes</a></h3>
-                </div>
+         <section class="classes-section">
+         <div class="section-left col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-blue">
+                <img src="<?php the_field('classes-image');?>">
             </div>
-            <div class="section-right container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-green">
-                <h3 class="section-text"><a href="#">Classes</a></h3>
+            <div class="section-right container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-black">
+                <div class="section-description">
+                    <h3 class="section-text"><a href="/classes">Classes</a></h3>
+                </div>
             </div>
         </section>
 
         <section class="gallery-section">
-            <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-orange">
-                <div class="section-left">
-                    <h3 class="section-text"><a href="#">Gallery</a></h3>
-                </div>
+            <div class="section-left col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-orange">
+                <img src="<?php the_field('gallery-image');?>">
             </div>
             <div class="section-right container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-black">
-                <h3 class="section-text"><a href="#">Gallery</a></h3>
+                <div class="section-description">
+                    <h3 class="section-text"><a href="/gallery">Gallery</a></h3>
+                </div>
             </div>
         </section>
     </div>

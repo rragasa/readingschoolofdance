@@ -106,9 +106,3 @@
         <script src="<?php echo get_template_directory_uri() . '/assets/js/nav.js'; ?>"></script>
     </body>
 </html>
-
-
-<!-- TO DO:
-1. Finish footer
-2. create home page
-    -->

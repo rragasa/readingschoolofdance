@@ -10,8 +10,24 @@
     background: $rsd-light-black;
 }
 
+.bg-light-grey {
+    background: $rsd-light-grey;
+}
+
 .bg-blue {
     background: $rsd-blue;
+}
+
+.bg-white {
+    background: $rsd-white;
+}
+
+.bg-green {
+    background: $rsd-green;
+}
+
+.bg-orange {
+    background: $rsd-orange;
 }
 
 /*-------------------------------*/
@@ -28,4 +44,36 @@
 
 .inline-block {
     display: inline-block;
+}
+
+/*-------------------------------*/
+/*     DIVIDER                   */
+/*-------------------------------*/
+
+.divider {
+    border-bottom: 2px solid $rsd-white;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.section-left,
+.section-right {
+    padding: 3rem;
+    height: 18rem;
+}
+
+.section-text {
+    text-decoration: none;
+}
+
+/*-------------------------------*/
+/*     MEDIA QUERIES             */
+/*-------------------------------*/
+
+@media (min-width: 768px) {
+    .section-left,
+    .section-right {
+        padding: 3rem;
+        height: 30rem;
+    }
 }

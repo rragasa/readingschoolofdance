@@ -40,7 +40,7 @@
                 <div class="header-text">
                         <div class="container">
                             <h1><?php the_field('header_title');?></h1>
-                            <div class="header__divider"></div>
+                            <div class="divider"></div>
                             <p><?php the_field('header_description');?></p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                 <div class="header-text">
                     <div class="container">
                         <h1><?php the_field('header_title');?></h1>
-                        <div class="header__divider"></div>
+                        <div class="divider"></div>
                         <p><?php the_field('header_description');?></p>
                     </div>
                 </div>

@@ -10,10 +10,38 @@
  *
  */
 get_header();?>
-        <div class="container">
+        <section class="aboutus-section">
+            <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-blue">
+                <div class="section-left">
+                    <h3 class="section-text"><a href="#">About Us</a></h3>
+                </div>
+            </div>
+            <div class="section-right container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-black">
+                <h3 class="section-text"><a href="#">About Us</a></h3>
+            </div>
+        </section>
 
-        </div>
+        <section class="classes-section">
+            <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-black">
+                <div class="section-left">
+                    <h3 class="section-text"><a href="#">Classes</a></h3>
+                </div>
+            </div>
+            <div class="section-right container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-green">
+                <h3 class="section-text"><a href="#">Classes</a></h3>
+            </div>
+        </section>
 
+        <section class="gallery-section">
+            <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-orange">
+                <div class="section-left">
+                    <h3 class="section-text"><a href="#">Gallery</a></h3>
+                </div>
+            </div>
+            <div class="section-right container col-xs-12 col-sm-6 col-md-6 col-lg-6 bg-black">
+                <h3 class="section-text"><a href="#">Gallery</a></h3>
+            </div>
+        </section>
     </div>
     <!-- /#page-content-wrapper -->
 

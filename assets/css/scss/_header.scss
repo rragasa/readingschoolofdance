@@ -1,0 +1,31 @@
+header {
+    background: $rsd-black;
+
+    &#home {
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+    }
+
+    img {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .header-img:after {
+        background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top left, rgb(0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) -moz-linear-gradient(top left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) -o-linear-gradient(top left, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) linear-gradient(to bottom right, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0;
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}

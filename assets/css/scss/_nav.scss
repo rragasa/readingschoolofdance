@@ -62,7 +62,6 @@
 }
 
 #page-content-wrapper {
-    padding-top: 70px;
     min-height: 100%;
     margin-bottom: 100px;
 }
@@ -239,19 +238,19 @@
 
 .hamburger.is-closed .hamb-top {
     -webkit-transition: all 0.35s ease-in-out;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: $rsd-white;
     top: 5px;
 }
 
 .hamburger.is-closed .hamb-middle {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: $rsd-white;
     margin-top: -2px;
     top: 50%;
 }
 
 .hamburger.is-closed .hamb-bottom {
     -webkit-transition: all 0.35s ease-in-out;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: $rsd-white;
     bottom: 5px;
 }
 

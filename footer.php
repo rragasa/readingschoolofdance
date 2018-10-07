@@ -1,5 +1,5 @@
             <div class="contactus bg-black">
-                <div>
+                <div class="container">
                     <!-- Contact Info -->
                     <div class="contactinfo col-sm-6">
                         <h5 class="contactinfo__header">Contact Us</h5>
@@ -24,7 +24,7 @@
                     </div>
 
                     <!-- Address Info -->
-                    <div class="addressinfo">
+                    <div class="addressinfo col-sm-6">
                         <h5 class="addressinfo__header">Address</h5>
                         <div class="addressinfo-address">
                             <div class="addressinfo-item">

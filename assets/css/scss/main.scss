@@ -1,16 +1,16 @@
-/****** Vendor Imports ******/
+/* ==== Vendor Imports  ==== */
 @import "vendor/normalize";
 @import "vendor/reset";
 @import "node_modules/sass-rem/rem";
 @import "node_modules/basscss/css/basscss.css";
 @import "node_modules/compass-mixins/lib/compass/css3";
 
-/****** Base Imports ******/
+/* ==== Base Imports  ==== */
 @import "base/fonts";
 @import "base/helpers";
 @import "base/breakpoints";
 @import "base/base";
 
-/****** Components Imports ******/
+/* ==== Component Imports  ==== */
 @import "components/header";
 @import "components/hero";

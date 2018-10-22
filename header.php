@@ -32,7 +32,7 @@
         </div>
 
 
-        <div class="wrapper ml4">
-            <h1 class="supersize montserrat">Reading School of <span class="color-emphasis">Dance.</span></h1>
+        <div class="wrapper">
+            <h1 class="">Reading School of <span class="color-emphasis">Dance.</span></h1>
         </div>
     </header>

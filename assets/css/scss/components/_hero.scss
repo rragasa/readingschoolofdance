@@ -10,12 +10,31 @@
     height: 100%;
     position: absolute;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .hero h1 {
     color: black;
     font-weight: bold;
+    font-size: 4rem;
+    margin-left: 1.2rem;
+
+    @include mq($from: tablet, $until: tabletLarge) {
+        font-size: 5rem;
+        margin-left: 1.5rem;
+    }
+
+
+    @include mq($from: tabletLarge, $until: desktop) {
+        font-size: 6.5rem;
+        margin-left: 2rem;
+    }
+
+
+    @include mq($from: desktop) {
+        font-size: 8rem;
+        margin-left: 2rem;
+    }
 }
 
 .wrapper {

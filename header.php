@@ -12,3 +12,17 @@
 </head>
 
 <body>
+    <div class="menu-section">
+        <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+        <nav>
+            <ul role="navigation" class="hidden">
+            <?php
+                    wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<li id="item-id"></li>%3$s'));
+                ?>
+            </ul>
+        </nav>
+    </div>

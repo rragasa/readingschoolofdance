@@ -13,6 +13,15 @@
     opacity: 0.5;
 }
 
+.hero .wrapper {
+    max-width: 25rem;
+    position: absolute;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
 .hero h1 {
     color: black;
     font-weight: bold;
@@ -37,13 +46,13 @@
     }
 }
 
-.wrapper {
-    max-width: 25rem;
-    position: relative;
-    z-index: 10;
-    transform: translateY(-50%);
-    top: 50%;
-}
+// .wrapper {
+//     max-width: 25rem;
+//     position: relative;
+//     z-index: 10;
+//     transform: translateY(-50%);
+//     top: 50%;
+// }
 
 .color-emphasis {
     color: #3043a0;

@@ -15,7 +15,9 @@
 <body>
     <header class="hero">
         <img class="alpha-bg" src="http://localhost:8888/wp-content/uploads/2018/10/756C0258-1.jpg">
-
+        <div class="wrapper">
+            <h1>Reading School of <span class="color-emphasis">Dance.</span></h1>
+        </div>
         <div class="menu-section">
             <div class="menu-toggle">
                 <div class="one"></div>
@@ -32,7 +34,5 @@
         </div>
 
 
-        <div class="wrapper">
-            <h1 class="">Reading School of <span class="color-emphasis">Dance.</span></h1>
-        </div>
+
     </header>

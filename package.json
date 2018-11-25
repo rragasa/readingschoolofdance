@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/rragasa/readingschoolofdance#readme",
   "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.7",
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }
